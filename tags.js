@@ -5,13 +5,8 @@ function preload(){
 }
 
 function show_recipes(tag){
-    for (let j=1; j<recipes.length;j++){
-        if (recipes[j] != ""){
-            if (recipes[j].includes(tag)){
-                console.log(recipes[j].split(", ")[0])
-            }
-        }
-    }
+    sessionStorage.setItem('tag',tag)
+    location.href = "tags_recipes.html"
 }
 
 function setup(){
@@ -19,6 +14,7 @@ function setup(){
     console.log(tags)
     var tag_buttons = "";
     for (let i =0; i< tags.length ;i++){
+        
         if (tags[i] != ""){
             var temp = '"' + tags[i] + '"'
             tag_buttons += "<button onclick = "
