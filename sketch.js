@@ -48,7 +48,7 @@ function setup(){
         console.log(button_text)
         var temp = ""
         temp = '"' + recipe_names[i] + '"'
-        buttons += "<button onclick = "
+        buttons += "<button class='recipe-button' onclick = "
         buttons += "'button_func("
         buttons += temp
         buttons += ")'>"

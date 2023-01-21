@@ -1,0 +1,80 @@
+/* Add a background color to the body */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the recipe title */
+h1.recipe-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    /*text-align: center;*/
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+/* Style the recipe image */
+img.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+    margin-bottom: 20px;
+}
+
+/* Style the recipe ingredients list */
+ul.ingredients {
+    list-style-type: disc;
+    /*padding: 20;*/
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+}
+ul.ingredients li:hover {
+    background-color: #f2f2f2;
+}
+
+/* Style the recipe instructions */
+ol.instructions {
+    list-style-type: decimal;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    
+}
+
+/* Style the recipe serving size and time */
+p.serving-time {
+    font-size: 18px;
+    font-style: italic;
+    color: #999;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* Style the recipe buttons */
+.recipe-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1f76be;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Add hover effect to the recipe buttons */
+.recipe-button:hover {
+    background-color: #0f4c81;
+}
+
+/* Add active effect to the recipe buttons */
+.recipe-button:active {
+    background-color: #0f4c81;
+    box-shadow: inset 0px 0px 5px #333;
+}

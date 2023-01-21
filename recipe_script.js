@@ -20,8 +20,8 @@ function recipe_text(txt){
     createP("<h2>"+"Serves: "+serves+"</h2>");
     createP("<h2>"+ txt[2]+"</h2>")
     let time = new String (txt[2].substr(6));
-    createP("<h2>Ingredients</h2>")
-    var ingredients = "<ul>";
+    createP("<h2>Ingredients:</h2>")
+    var ingredients = "<ul class='ingredients'>";
     var instruction_start;
     for (let i=4; i<txt.length; i++){
         if (txt[i] == "Instructions:"){
@@ -34,8 +34,8 @@ function recipe_text(txt){
     createP(ingredients);
 
 
-    createP("<h2>Instructions</h2>")
-    var instructions = "<ol>";
+    createP("<h2>Instructions:</h2>")
+    var instructions = "<ol class='instructions'>";
     var tag_start;
     for (let i=instruction_start+1; i<txt.length; i++){
         console.log(txt[i].substr(0,4))
