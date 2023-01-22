@@ -13,19 +13,27 @@ function setup(){
     var tags = recipes[0].split(", ")
     console.log(tags)
     var tag_buttons = "";
+    var buttons = "<div class='row'>"
+    var columns = ["<div class='column'>","<div class='column'>","<div class='column'>"]
     for (let i =0; i< tags.length ;i++){
         
         if (tags[i] != ""){
             var temp = '"' + tags[i] + '"'
-            tag_buttons += "<button onclick = "
-            tag_buttons += "'show_recipes("
-            tag_buttons += temp
-            tag_buttons += ")'>"
-            tag_buttons += tags[i] + "</button><p>"
+            columns[i % 3] += "<button class='recipe-button' onclick = "
+            columns[i % 3] += "'show_recipes("
+            columns[i % 3] += temp
+            columns[i % 3] += ")'>"
+            columns[i % 3] += tags[i] + "</button><p>"
         }
     }
-    console.log(tag_buttons)
-    createP(tag_buttons)
+    columns[0] += "</div>"
+    columns[1] += "</div>"
+    columns[2] += "</div>"
+    buttons += columns[0] + columns[1]+columns[2]
+    buttons += "</div>"
+    console.log(columns[0])
+    console.log(buttons)
+    createP(buttons)
     /*
     var temp = ""
     temp = '"' + recipe_names[i] + '"'

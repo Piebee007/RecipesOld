@@ -35,12 +35,13 @@ function show_recipes(tag){
         }
 
         var temp ='"' + tag_recipes[j][0] + '"'
-        buttons += "<button onclick = "
+        buttons += "<button class='recipe-button' onclick = "
         buttons += "'button_func("
         buttons += temp
         buttons += ")'>"
         buttons += tag_recipes[j][0] + "</button><p>"
     }
+    buttons += "</div>"
     createP(buttons)
 
 }
