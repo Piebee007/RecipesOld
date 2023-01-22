@@ -1,8 +1,8 @@
 var x;
 var txt;
-
+var filename
 function preload(){
-    var filename = sessionStorage.getItem('file')
+    filename = sessionStorage.getItem('file')
     console.log(filename)
     txt = loadStrings('Recipes/' + filename+'.txt')
 }
@@ -38,7 +38,6 @@ function recipe_text(txt){
     var instructions = "<ol class='instructions'>";
     var tag_start;
     for (let i=instruction_start+1; i<txt.length; i++){
-        console.log(txt[i].substr(0,4))
         if (txt[i].substr(0,4) == "Tags"){
             tag_start = i;
             break;
@@ -47,6 +46,10 @@ function recipe_text(txt){
     }
     instructions += "</ol>"
     createP(instructions);
-    console.log(instructions)
-    console.log(txt);
+}
+
+function add_recipe(){
+    var new_txt = sessionStorage.getItem('recipe_list') + ", " + filename
+    sessionStorage.setItem('recipe_list', new_txt)
+    console.log(filename)
 }
