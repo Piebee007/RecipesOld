@@ -34,12 +34,5 @@ function setup(){
     console.log(columns[0])
     console.log(buttons)
     createP(buttons)
-    /*
-    var temp = ""
-    temp = '"' + recipe_names[i] + '"'
-    buttons += "<button onclick = "
-    buttons += "'button_func("
-    buttons += temp
-    buttons += ")'>"
-    buttons += button_text + "</button><p>"*/
+    
 }

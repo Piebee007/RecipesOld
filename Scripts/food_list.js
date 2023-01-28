@@ -1,15 +1,24 @@
 var filenames
 var txt_files = []
 function preload(){
-    filenames = sessionStorage.getItem('recipe_list')
-    console.log(filenames)
-    var filenames_arr = filenames.split(", ")
-    for (let i=0; i < filenames_arr.length; i++){
-        if (filenames_arr[i] != ""){
-            txt_files.push(loadStrings('Recipes/' + filenames_arr[i]+'.txt'))
-        }
+    try {
+        filenames = sessionStorage.getItem('recipe_list')
+        console.log(filenames)
+        var filenames_arr = filenames.split(", ")
+        for (let i=0; i < filenames_arr.length; i++){
+            
+            if (filenames_arr[i] != "" && filenames_arr[i] != "null"){
+                console.log(filenames_arr[i])
+                txt_files.push(loadStrings('Recipes/' + filenames_arr[i]+'.txt'))
+            }
+            
+        }    
+        console.log(txt_files)
+    } catch (error) {
+        
     }
-    console.log(txt_files)
+    
+    
     
 }
 

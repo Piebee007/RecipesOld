@@ -1,6 +1,7 @@
 Bacon & Butternut Risotto
 Serves: 4
 Time:
+Image_name:
 Ingredients:
 350g Risotto Rice
 8 rashers of Bacon
@@ -10,6 +11,7 @@ Parsley
 1500ml chicken stock
 2 Onions
 Grated Italian Style Cheese
+(Optional) Chicken Scraps
 Instructions:
 Preheat the oven to 200°C. Put the diced butternut squash on a baking tray and drizzle over some oil and season with salt and pepper.
 Roast until golden, 25-30 minutes. Turn halfway through cooking
@@ -24,3 +26,4 @@ Add a ladeful of the stock and stir. Once the rice has absorbed the stock, add a
 Continue adding stock and stirring regularly, until all the stock has been absorbed by the rice - 'Al denta'
 Add the cooked butternut squash, cheese, 3/4 parsley and a knob of butter
 Tags: Mediterranean
+Credit: https://www.hellofresh.co.uk/recipes/creamy-risotto-week-17-fam-58aed714d56afa4fd06463b3

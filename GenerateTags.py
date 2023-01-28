@@ -12,8 +12,16 @@ for file_name in file_array:
         if line[0:5] == "Tags:":
             tags_list = line[6:].split(", ")
             for tag in tags_list:
+                if tag[len(tag)-1:len(tag)] == "\n":
+                        #print(tag[:len(tag)-1])
+                        tag = (tag[:len(tag)-1])
                 if tag not in unique_tags:
-                    unique_tags.append(tag)
+                    #print(tag[len(tag)-1:len(tag)])
+                    if tag[len(tag)-1:len(tag)] == "\n":
+                        #print(tag[:len(tag)-1])
+                        unique_tags.append(tag[:len(tag)-1])
+                    else:
+                        unique_tags.append(tag)
                 tags_in_file += ", " + tag
     file_text += tags_in_file + "\n"
     file.close()
