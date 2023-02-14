@@ -2,6 +2,7 @@
 BeerCanChicken, Chicken
 ButternutRisotto, Mediterranean
 ChickenBurgers, Chicken, BBQ
+ChickenFagitas, Chicken
 ChickenGyros, Chicken
 Chips&CurrySauce, Jacket Potatoes, Curry
 JensonsFamousCurry, Chicken, Curry, Asian
