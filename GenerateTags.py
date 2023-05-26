@@ -1,12 +1,12 @@
 import glob
 
-print(glob.glob('Recipes/*.txt'))
+print(glob.glob('Recipes/Recipes/*.txt'))
 unique_tags = []
 file_text = ""
-file_array = glob.glob('Recipes/*.txt')
+file_array = glob.glob('Recipes/Recipes/*.txt')
 for file_name in file_array:
     tags_in_file = ""
-    tags_in_file += file_name[8:len(file_name)-4]
+    tags_in_file += file_name[16:len(file_name)-4]
     file = open(file_name, "r")
     for line in file:
         if line[0:5] == "Tags:":

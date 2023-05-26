@@ -1,6 +1,7 @@
-, Chicken, Mediterranean, BBQ, Beef, Jacket Potatoes, Curry, Asian, Lamb, Cheese, Pasta, Tomato, Quick, Sausage, One Pan
+Chicken, Mediterranean, Pasta, Chorizo, BBQ, Beef, Jacket Potatoes, Curry, Asian, Lamb, Cheese, Tomato, Quick, Sausage, One Pan
 BeerCanChicken, Chicken
 ButternutRisotto, Mediterranean
+Chicken&ChorizoPasta, Chicken, Pasta, Chorizo
 ChickenBurgers, Chicken, BBQ
 ChickenFagitas, Chicken
 ChickenGyros, Chicken
