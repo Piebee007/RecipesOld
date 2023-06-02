@@ -1,16 +1,17 @@
-, Chicken, Dessert, Mediterranean, Pasta, Chorizo, BBQ, Rice, Beef, Jacket Potatoes, Curry, Potato, Asian, Lamb, Cheese, Tomato, Quick, Sausage, Sausages, One Pan
+, Chicken, Dessert, Breakfast, Mediterranean, Pasta, Chorizo, BBQ, Rice, Beef, Jacket Potatoes, Curry, Potato, Soup, Onion, Asian, Lamb, Cheese, Tomato, Quick, Sausage, Sausages, One Pan
 BeerCanChicken, Chicken
 BiscoffCake, Dessert
+BreakfastQuesadillas, Breakfast
 ButternutRisotto, Mediterranean
 Chicken&ChorizoPasta, Chicken, Pasta, Chorizo
 ChickenBurgers, Chicken, BBQ
-ChickenFagitas, Chicken
 ChickenFajitas, Chicken
 ChickenFriedRice, Chicken, Rice
 ChickenGyros, Chicken
 ChillieLoadedWedges, Beef
 Chips&CurrySauce, Jacket Potatoes, Curry
 ChorizoHash, Chorizo, Potato
+FrenchOnionSoup, Soup, Onion
 JensonsFamousCurry, Chicken, Curry, Asian
 LambTikkaCurry, Lamb, Curry
 LoadedJacketPotatoes, Jacket Potatoes, Cheese
@@ -18,6 +19,7 @@ Mac&CheeseWithChorizo&Bacon, Cheese, Pasta, Chorizo
 Meatballs, Pasta, Tomato
 NaanBreadPizza, Quick
 PastaBake, Tomato, Pasta
+PeanutButter&ChocolateOatBars, Dessert
 PeriPeriChicken, Chicken
 Sausage&TomatoPasta, Sausage, Pasta, Tomato
 SausageCasserole, Sausages, Potato
